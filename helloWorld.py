@@ -2,11 +2,11 @@
 #print("Git is Awesome!")
 
 message = "Git is Awesome!"
-new_message = ""
+alternates = ""
 for i, char in enumerate(message):
     if i % 2 == 0:
-        new_message += char.upper()
+        alternates += char.upper()
     else:
-        new_message += char.lower()
-print(new_message)
+        alternates += char.lower()
+print(alternates)
 #output = GiT iS aWeSoMe!

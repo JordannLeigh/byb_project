@@ -4,4 +4,5 @@ Output "Hello World!"
 Change output to "Git is Awesome!"
 Then recommit using git add
 UPDATE: added functionality
--message now prints alternating between caps and lowers
+1 - message now prints alternating between caps and lowers
+2 - variable name for message changed to be more meaningful names

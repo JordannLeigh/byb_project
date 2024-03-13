@@ -10,3 +10,6 @@ for i, char in enumerate(message):
         alternates += char.lower()
 print(alternates)
 #output = GiT iS aWeSoMe!
+
+# Adding the reverse functionality
+print("Reversed:", message[::-1])

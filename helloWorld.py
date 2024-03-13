@@ -1,6 +1,8 @@
 #print("Hello World!")
 #print("Git is Awesome!")
 
+print("Welcome!")
+
 message = "Git is Awesome!"
 alternates = ""
 for i, char in enumerate(message):
@@ -13,3 +15,5 @@ print(alternates)
 
 # Adding the reverse functionality
 print("Reversed:", message[::-1])
+
+print("Goodbye!")
